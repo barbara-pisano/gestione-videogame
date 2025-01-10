@@ -1,0 +1,30 @@
+<div class="game">
+
+    <img [src]="imagePath()" alt="">
+
+    <h3>{{videogame.titolo}}</h3>
+    <ul>
+        <li>{{videogame.descrizione}}</li>
+        <li>{{videogame.genere}}</li>
+        <li>Data di rilascio: {{videogame.dataRilascio}}</li>
+        <li>{{videogame.prezzo}}</li>
+        <li><span>{{videogame.statoDisponibilita ? "Disponibile" : "Non disponibile"}}</span></li>
+
+
+        @if(!videogame.statoDisponibilita) { 
+            <button (click)="onPrenota()" class="btn-prenota">Prenota</button>
+        } @else {
+            <button (click)="onAcquisto()" class="btn-acquista">Acquista: ${{videogame.prezzo}}</button>
+            @if(acquisto) {
+                <p class="text-success">Grazie per l'acquisto!</p>
+            }
+        }
+        @if(prenotazione) {
+            <app-form></app-form>
+            
+        }
+    </ul>
+
+
+
+</div>

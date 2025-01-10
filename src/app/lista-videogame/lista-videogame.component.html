@@ -1,0 +1,8 @@
+<!-- <h3>Responsabili Corso</h3>
+@for(respo of listaRespoCorso; track respo.id){
+    <app-responsabile [respo]="respo" (disponibilita)="onMostraDisponibilita($event)"></app-responsabile>
+} -->
+
+@for(videogame of videogames; track videogame.titolo) {
+    <app-videogame class="videogame" [videogame]="videogame"></app-videogame>
+}

@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('../public/img/background-videogame.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: "Jura", serif;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}

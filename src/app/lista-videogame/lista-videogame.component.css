@@ -1,0 +1,8 @@
+.videogame {
+    width: 25rem;
+    backdrop-filter: blur(15px);          /* Sfocatura del contenuto dietro */
+    color: white;
+    margin: 2%;
+    border-radius: 5%;
+    height: fit-content;
+}

@@ -1,0 +1,58 @@
+img {
+    width: 70%;
+    border-radius: 40px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding: 5%;
+}
+
+ul {
+    width: 70%;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+ span {
+    font-weight: bolder;
+    color: orange;
+}
+
+h3 {
+    font-family: "Audiowide", serif;
+}
+
+.btn-acquista {
+    background-color: orange;
+    padding: 0.8rem;
+    border-radius: 30px;
+    border: none;
+    margin-top: 1rem;
+    font-family: 'Jura', sans-serif;
+    cursor: pointer;
+}
+
+.btn-prenota {
+    background-color: rgb(70, 63, 59);
+    padding: 0.8rem;
+    border-radius: 30px;
+    border: none;
+    margin-top: 1rem;
+    font-family: 'Jura', sans-serif;
+    color: white;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.text-success {
+    color: rgb(5, 201, 5);
+    font-weight: bold;
+}

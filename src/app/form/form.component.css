@@ -1,0 +1,53 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 15px;
+    border-color: orange;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 80%;
+    background-color: rgb(70, 63, 59);
+    color: white;
+    border: none;
+    filter: opacity(0.8);
+    border: 1px solid orange;
+}
+
+input:focus {
+    border: 3px solid orange;
+    outline: none;
+}
+
+input::placeholder {
+    color: orange
+}
+
+.btn-conferma-prenotazione {
+    background-color: orange;
+    padding: 0.8rem;
+    border-radius: 30px;
+    border: none;
+    margin-top: 1rem;
+    font-family: 'Jura', sans-serif;
+    width: 50%;
+    cursor: pointer;
+}
+
+.text-danger {
+    display: block;
+    color: red;
+    font-weight: bold;
+}
+
+.text-success {
+    display: block;
+    color: rgb(5, 201, 5);
+    font-weight: bold;
+
+}
